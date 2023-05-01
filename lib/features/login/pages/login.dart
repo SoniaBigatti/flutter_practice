@@ -11,10 +11,12 @@ class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      
         appBar: AppBar(
-          shadowColor: Colors.transparent,
-          leading: const Icon(Icons.arrow_back),
-          backgroundColor: Colors.transparent,
+          shadowColor: Colors.white,
+          elevation: 0,
+          leading: const Icon(Icons.arrow_back, color: Colors.black,),
+          backgroundColor: Colors.white,
         ),
         body: GestureDetector(
           onTap: () {
